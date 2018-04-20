@@ -1,4 +1,74 @@
 <html>
-<head></head>
-<body></body>
+<head>
+<title>Assesment</title>	
+</head>
+<body>
+<input type="number" id="number1"></input>
+<button onclick="isPrime()">Is it a prime number?</button><br><br>
+<input type="number" id="number2"></input>
+<button onclick="amountToCoins()">Convert into coins</button><br><br>
+<input type="text" id="str1"></input>
+<button onclick="isPrime()">Remove repeated letters</button><br><br>
+<input type="number" id="number4"></input>
+<button onclick="factorial()">factorial</button><br><br>
+<button onclick="fibonacci()">fibonacci</button><br><br>
+<script>	
+function isPrime(number){
+	let num1 = parseInt(document.getElementById(number1));
+	let b = true;
+	if ((num1 % 2) == 1){ //if the number inputted when dived by 2 resulted w/o a  remainder
+		window.alert("its not a prime number");
+	}
+	else {
+		window.alert("its a prime number"); 
+	}
+}
+function amountToCoins(amount, coins){
+ 	let num2 = document.getElementById(number2);
+ 	if(num2 /25){
+ 		num3 = num2 / 25;
+ 		if (num3 != 0){
+ 			num4 = num4 / 10;
+ 		}
+ 		console.log("");
+ 		}
+ 	}
+function uniqueLetters(string){
+	let string1 = document.getElementById(str1);
+	let string2 = string1.array;
+	for(let d = 0; string2.stringLength !=0; d++){
+	   		string2.pop();
+	   		document.write();
+	}
+}
+function factorial(number){
+	let num3 = 5;
+	let nm = num3-1;
+	let nm1 = 0;
+	console.log(num3);
+	console.log(nm);
+	//for(let a = 0; num3!= 0; a++){ //if the number isnt 0, then it should multiply all
+		let sum3 = num3 * nm;
+		nm--;
+		sum4= sum3 * nm;
+		console.log(sum3);
+		console.log(num3);
+		console.log(nm);
+		console.log(nm1);
+	//}
+}
+function fibonacci(number){
+	let fibNum1 = 0;
+	let fibNum2 = 1;
+			console.log(fibNum1);
+			console.log(fibNum2);
+			let sum1 = fibNum1 + fibNum2;
+			console.log(sum1);
+			let sum2 = sum1 + fibNum2;
+			console.log(sum2);
+			let sum3 = sum2 + fibNum2;
+			console.log(nm);
+			//the goal is to get the sum of the previous one to add to the current sum
+</script>
+</body>
 </html>
